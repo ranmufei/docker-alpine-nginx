@@ -58,8 +58,8 @@ RUN \
 
 ADD root /
 
-VOLUME ["/usr/html/app1003/"]
+VOLUME ["/usr/html/app1004"]
 
-ADD app1003/ /usr/html/app1003/
+ADD app1004 /usr/html/app1004
 
 EXPOSE 80 443
