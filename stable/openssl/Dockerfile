@@ -58,6 +58,6 @@ RUN \
 
 ADD root /
 
-ADD app1001/ /usr/html/
+ADD app1002 /usr/html/app1002/
 
 EXPOSE 80 443
